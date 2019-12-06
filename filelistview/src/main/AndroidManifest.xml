@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.xl.filelist"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+	
+	<uses-permission android:name="android.permission.INTERNET" /><!-- 访问网络连接，可能产生GPRS流量 -->
+	<uses-permission android:name="android.permission.CHANGE_WIFI_STATE" /><!-- Wifi 改变状态 -->
+	<uses-permission android:name="android.permission.ACCESS_WIFI_STATE" /><!-- WiFi 状态 -->
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /><!-- 网络状态 -->
+	<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" /><!-- 允许应用程序读取文件 -->
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" /><!-- 允许程序写入外部存储，如SD卡上写文件 -->
+	<!--
+	<uses-permission android:name="android.permission.VIBRATE" />
+	
+	<uses-permission  android:name="android.permission.GET_TASKS"  />
+	<uses-permission  android:name="android.permission.READ_PHONE_STATE"  />
+	-->
+	<uses-permission android:name="android.permission.INSTALL_PACKAGES" />
+	
+</manifest>

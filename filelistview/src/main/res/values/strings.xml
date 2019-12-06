@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">文件浏览器</string>
+    <string name="app_select">文件选择</string>
+    <string name="select_file">选择文件</string>
+    <string name="select_dir">选择文件夹</string>
+    <!--   浏览器相关      -->
+    <string name="filebrowser">文件浏览器</string>
+
+    <string name="open_with">打开方式</string>
+    <string name="rename">重命名</string>
+    <string name="delete">删除</string>
+    <string name="new_folder">新建文件夹</string>
+    <string name="new_file">新建文件</string>
+    <string name="copyfile">复制文件</string>
+    <string name="cutfile">剪切</string>
+    <string name="pastefile">粘贴</string>
+    <string name="new_project">新建工程</string>
+
+    <string name="share">分享</string>
+    <string name="zip_files">压缩文件(夹)</string>
+    <string name="zip_unzip_files">压缩/解压zip</string>
+    <string name="please_filename">请输入文件名</string>
+    <string name="please_dirname">请输入文件夹名</string>
+    <string name="uplayer">返回上层</string>
+    <string name="copy_path">复制路径</string>
+    <string name="copy_clipboar_ok">路径已复制到剪切板</string>
+    <string name="path_refresh">刷新</string>
+
+    <string name="accept">确定</string>
+    <string name="refused">取消</string>
+
+
+</resources>
