@@ -18,6 +18,8 @@ public class FileListView extends ListView
 	private Map<String, Drawable> mDrawable;
 	//过滤文件类型
 	private int filter;
+	private int minLeve = 0;
+	private boolean isOpenLeve = false;
 	public static final int
 	_BROWER_ALL=0, //全部
 	_BROWER_FILE=1,//只浏览文件
@@ -70,6 +72,7 @@ public class FileListView extends ListView
 	//层级限制
 	public void setIsOpenLeve(boolean isopen)
 	{
+		this.isOpenLeve = isopen;
 		this.pathManager.setIsOpenLeve(isopen);
 	}
 	
@@ -103,6 +106,8 @@ public class FileListView extends ListView
 	public void setMinLeve(int leve)
 	{
 		this.pathManager.setMinLeve(leve);
+		this.pathManager.setIsOpenLeve(true);
+		this.minLeve = leve;
 	}
 	
 	//获取目录层级
@@ -154,6 +159,8 @@ public class FileListView extends ListView
 	{
 		//Logcat.e("设置目录"+path);
 	  pathManager = new PathManager(path);
+	  pathManager.setIsOpenLeve(isOpenLeve);
+	  pathManager.setMinLeve(minLeve);
 		refList();
 		/*
 	 // String upPath = pathManager.getPath();

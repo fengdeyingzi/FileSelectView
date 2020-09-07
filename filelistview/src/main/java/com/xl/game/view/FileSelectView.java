@@ -287,6 +287,10 @@ String TAG = "FileSelectView";
 		}
 		return leve;
 	}
+
+	public void setMinLeve(int leve){
+		fileListView.setMinLeve(leve);
+	}
 	
 	
 	public FileSelectView(Context context) {
@@ -342,6 +346,7 @@ String TAG = "FileSelectView";
 		//btn_file.setPadding(0,0,0,0);
 		
 		fileListView = new FileListView(context);
+		fileListView.setDrawUp(false);
 		fileListView.setId(1000);
 	    setFileDrawable(".tmx", ViewTool.getDrawable(getContext(),R.drawable.ex_tiled));
 		int height = DisplayUtil.dip2px(context,60);
