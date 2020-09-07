@@ -1,8 +1,5 @@
-package com.xl.view;
-import android.content.*;
+package com.xl.game.view;
 import android.graphics.drawable.*;
-import android.net.*;
-import android.view.*;
 import android.widget.*;
 import com.xl.game.tool.*;
 import com.xl.filelist.*;

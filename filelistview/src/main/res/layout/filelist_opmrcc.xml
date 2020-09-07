@@ -11,7 +11,7 @@
 		android:orientation="vertical"
 		android:id="@+id/filelist_layout1">
 
-		<com.xl.view.FileListView
+		<com.xl.game.view.FileListView
 			android:layout_width="fill_parent"
 			android:layout_height="fill_parent"
 			android:id="@+id/filelist"/>
@@ -32,7 +32,7 @@
 			android:layout_height="wrap_content"
 			android:ems="10"/>
 
-		<com.xl.view.FloatingActionButton
+		<com.xl.game.view.FloatingActionButton
 			android:layout_height="wrap_content"
 			android:layout_width="wrap_content"
 			fab:fab_colorNormal="@color/colorAccent"
@@ -42,7 +42,7 @@
 			android:layout_marginBottom="24dip"
 			android:layout_marginRight="24dip"/>
 
-		<com.xl.view.FloatingActionButton
+		<com.xl.game.view.FloatingActionButton
 			android:layout_height="wrap_content"
 			android:layout_width="wrap_content"
 			fab:fab_colorNormal="@color/colorAccent"
@@ -52,7 +52,7 @@
 			android:layout_marginBottom="24dip"
 			android:layout_marginRight="24dip"/>
 
-		<com.xl.view.FloatingActionButton
+		<com.xl.game.view.FloatingActionButton
 			android:layout_height="wrap_content"
 			android:layout_width="wrap_content"
 			fab:fab_colorNormal="@color/colorAccent"

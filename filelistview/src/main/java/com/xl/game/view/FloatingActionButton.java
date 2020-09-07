@@ -1,4 +1,4 @@
-package com.xl.view;
+package com.xl.game.view;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -17,8 +17,6 @@ import android.widget.ImageButton;
 import android.widget.TextView;
 import com.xl.filelist.R;
 
-import java.lang.annotation.Retention;
-import java.lang.annotation.RetentionPolicy;
 import com.xl.game.tool.ViewTool;
 
 public class FloatingActionButton extends ImageButton {

@@ -7,7 +7,7 @@ import android.widget.*;
 import com.xl.game.tool.*;
 
 import com.xl.game.tool.FileUtils;
-import com.xl.view.*;
+import com.xl.game.view.*;
 import java.io.*;
 //import android.text.*;
 import android.widget.AdapterView.*;

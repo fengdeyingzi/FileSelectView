@@ -1,4 +1,4 @@
-package com.xl.view;
+package com.xl.game.view;
 
 import android.app.AlertDialog;
 import android.app.Dialog;
@@ -6,7 +6,6 @@ import android.content.Context;
 import android.content.DialogInterface;
 import android.view.View;
 import android.widget.AdapterView;
-import android.widget.Button;
 import android.widget.EditText;
 import android.widget.LinearLayout;
 import com.xl.filelist.R;
@@ -17,17 +16,14 @@ import android.widget.TextView;
 import android.view.Gravity;
 import android.os.Build;
 import android.view.MotionEvent;
-import com.xl.view.FileSelectView.OnSelectListener;
 import android.graphics.drawable.Drawable;
 import android.util.TypedValue;
-import android.widget.Toast;
-import com.xl.game.tool.XL;
+
 import com.xl.game.tool.ViewTool;
 import com.xl.game.tool.Log;
-import android.view.Window;
+
 import android.view.ViewGroup;
 import android.graphics.drawable.ColorDrawable;
-import android.graphics.Color;
 import android.view.WindowManager;
 
 /*

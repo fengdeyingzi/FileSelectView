@@ -1,14 +1,12 @@
-package com.xl.view;
+package com.xl.game.view;
 
-import android.app.*;
 import android.content.*;
 import android.graphics.*;
 import android.view.*;
 import android.widget.*;
 //import com.xl.Clip.*;
-import com.xl.game.view.*;
 //import com.xl.list.*;
-import com.xl.filelist.*;
+
 import java.util.*;
 import android.graphics.drawable.*;
 //import com.xl.opmrcc.tool.ColorUtil;
@@ -16,7 +14,6 @@ import com.xl.game.tool.ImgTool;
 import com.xl.game.tool.DisplayUtil;
 import android.text.TextUtils;
 import com.xl.list.ViewHolder;
-import com.xl.game.tool.Log;
 import com.xl.tool.ColorUtil;
 import com.xl.game.math.Str;
 import android.os.Handler;
