@@ -1,5 +1,6 @@
 package com.xl.game.view;
 
+import android.annotation.SuppressLint;
 import android.app.AlertDialog;
 import android.app.Dialog;
 import android.content.Context;
@@ -39,7 +40,6 @@ String TAG = "FileSelectView";
 	@Override
 	public void onItemClick(AdapterView<?> adapter, View view, int pos, long id)
 	{
-		// TODO: Implement this method
 		String filename=fileListView.getFileName(pos);
 		File file = new File(filename);
 		if(fileListView.isUpDirButton(pos))
@@ -79,8 +79,8 @@ String TAG = "FileSelectView";
 	@Override
 	public void onClick(View p1)
 	{
-		// TODO: Implement this method
 		fileListView.setPath(getPath());
+		fileListView.setDrawUp(true);
 		File file = new File(getPath());
 		if(!file.isDirectory())
 			fileListView.setPath(file.getParent());	
@@ -110,7 +110,6 @@ String TAG = "FileSelectView";
 						@Override
 						public void onClick(DialogInterface p1, int p2)
 						{
-							// TODO: Implement this method
 							setPath(fileListView.getPath());
 							if(listener!=null)
 							listener.onSelectFile(getPath());
@@ -303,6 +302,7 @@ String TAG = "FileSelectView";
 		initView();
 	}
 	
+	@SuppressLint("ResourceType")
 	private void initView(){
 		setOrientation(LinearLayout.HORIZONTAL);
 		setGravity(Gravity.TOP|Gravity.LEFT);
@@ -331,7 +331,6 @@ String TAG = "FileSelectView";
 				@Override
 				public boolean onTouch(View p1, MotionEvent p2)
 				{
-					// TODO: Implement this method
 					if(p2.getAction()==p2.ACTION_UP){
 						onClick(p1);
 					}

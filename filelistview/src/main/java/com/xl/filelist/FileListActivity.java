@@ -77,8 +77,7 @@ public class FileListActivity extends Activity implements AdapterView.OnItemClic
 	@Override
 	protected void onCreate(Bundle savedInstanceState)
 	  {
-		  
-		// TODO: Implement this method
+
 		super.onCreate(savedInstanceState);
 			String sdCard = FileUtils.getSDPath();
 		setContentView(R.layout.filelist_opmrcc);
@@ -125,7 +124,6 @@ public class FileListActivity extends Activity implements AdapterView.OnItemClic
   @Override
 	public void onItemClick(AdapterView<?> adapter, View view, int pos, long id)
 	{
-		// TODO: Implement this method
 		File file = new File( this.adapter.getFile(pos));
 		String filename = this.adapter.getFile(pos);
 		if(fileListView.isUpDirButton(pos))
@@ -337,7 +335,6 @@ public class FileListActivity extends Activity implements AdapterView.OnItemClic
 			@Override
 			public void onClick(View p1)
 			{
-			// TODO: Implement this method
 			CopyFile copyfile= new CopyFile();
 			File oldfile=new File(pastefile);
 			int last=pastefile.lastIndexOf('/');
@@ -603,7 +600,6 @@ private void moveFile(String oldfilename,String newfilename)
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu)
 	{
-		// TODO: Implement this method
 	SubMenu subSkin;
 
 	//subSkin = menu.addSubMenu(0, 3, 1, "刷新");
@@ -656,7 +652,6 @@ private void moveFile(String oldfilename,String newfilename)
 	@Override
 	protected Dialog onCreateDialog(int id)
 	{
-	// TODO: Implement this method
 	switch(id)
 	{
 		case DLG_ADD:
@@ -689,7 +684,6 @@ private void moveFile(String oldfilename,String newfilename)
 				@Override
 				public void onClick(DialogInterface p1, int p2)
 				{
-				// TODO: Implement this method
 				}
 				
 				});

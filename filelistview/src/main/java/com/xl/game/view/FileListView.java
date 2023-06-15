@@ -285,7 +285,7 @@ public class FileListView extends ListView
 	//判断是否为返回上层
 	public boolean isUpDirButton(int pos)
 	{
-		if(pos==0 && this.isDrawUp)return true;
+		if (pos == 0 && this.isDrawUp && !pathManager.isUpPath()) return true;
 		else return false;
 	}
 	
